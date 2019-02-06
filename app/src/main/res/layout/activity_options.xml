@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffed9d"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.shamlis4.Options">
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_marginTop="100dp"
+        android:layout_width="380dp"
+        android:layout_height="71dp"
+        android:background="#ffed9d"
+        android:text="add another family member" />
+
+
+    <Button
+        android:id="@+id/kick"
+        android:layout_marginTop="10dp"
+        android:layout_width="380dp"
+        android:layout_height="71dp"
+        android:background="#ffed9d"
+        android:text="kick a family member" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_marginTop="200dp"
+        android:layout_width="380dp"
+        android:layout_height="71dp"
+        android:background="#ffed9d"
+        android:text="exit family" />
+
+
+</LinearLayout>

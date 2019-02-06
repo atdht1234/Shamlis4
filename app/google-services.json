@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "603431422627",
+    "firebase_url": "https://shamlis4.firebaseio.com",
+    "project_id": "shamlis4",
+    "storage_bucket": "shamlis4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603431422627:android:067e001d9b2c6277",
+        "android_client_info": {
+          "package_name": "com.example.android.shamlis4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603431422627-1dtlb0v1clur199mf4ti7hva230nesbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.shamlis4",
+            "certificate_hash": "cb22725c20fb52db8e6071eb5fa32261748a3f6f"
+          }
+        },
+        {
+          "client_id": "603431422627-5j3mch6smrfmnl19ao31rag1dsn50081.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkHY8ZAYDIvzhBv6Y18vv3wv-EICZLVa4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603431422627-5j3mch6smrfmnl19ao31rag1dsn50081.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

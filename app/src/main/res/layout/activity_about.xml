@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffed9d"
+    android:orientation="vertical"
+    tools:context="com.example.android.shamlis4.About">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="In this app you will be able to connect your family even more than watsup.This app can tell your family members to do chores, call someone from your family and even send your location to a family member.It will help you save time and breath on unecesery arguments.So good luck and have fun with this app. " />
+
+</LinearLayout>

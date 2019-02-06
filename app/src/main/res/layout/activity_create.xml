@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffed9d"
+    android:orientation="vertical"
+    tools:context="com.example.android.shamlis4.CreateActivity">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="144dp"
+    android:layout_gravity="center"
+    android:height="200dp"
+    android:text="Create your family"
+    android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:height="200dp"
+        android:text=""
+        android:textSize="30dp" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Familys name             "
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/familyname"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:hint="enter familys name"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Phone number             "/>
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:hint="enter phone number"/>
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Parent or child             "/>
+
+        <RadioButton
+            android:id="@+id/parent"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:hint="parent"/>
+
+        <RadioButton
+            android:id="@+id/child"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:hint="child"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="add profile picture"
+    android:layout_gravity="center"
+    android:id="@+id/addPic"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="145dp"
+        android:id="@+id/profile"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btncontinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="continue"
+        android:onClick="showPictureDialog"
+    />
+
+</LinearLayout>
